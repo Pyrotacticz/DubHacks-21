@@ -1,3 +1,111 @@
 /*
   Description
 */
+h1 {
+  position: absolute;
+  margin-top: 0%;
+  left: 350px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+}
+body {
+  background-image: url('img/background2.png');
+  background-color: #F3F8FD;
+}
+
+p, h2, h3, button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#logo {
+  height: 60px;
+  position: absolute;
+  top: 8px;
+  left: 270px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+
+img {
+  border-radius: 20px;
+  height: 300px
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35;
+  align-self: center
+}
+
+.overviewtext {
+  font-size: 15;
+}
+
+#overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 5%;
+  gap: 110px;
+}
+
+#card2 {
+  margin-top: 73px;
+}
+
+.catagoryimages {
+  height: 270px;
+}
+
+.centerinfo {
+  font-size: 15px;
+}
+
+.one, .two, .three {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-style: solid;
+  border-radius: 20px;
+  width: 1000px;
+  background-color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+button {
+  align-self: center;
+  height: 70px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: medium;
+  background-color: #6AC9F5;
+  width: 130px;
+}
+
+#covidtestingsites {
+  display: flex;
+  flex-direction: column;
+  margin-left: 320px
+}
+
+.catagoryname {
+  margin-left: 290px
+}
