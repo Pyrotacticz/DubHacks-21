@@ -4,23 +4,189 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<title>
-		<!-- Title of your page, which shows up in the browser tab -->
-	</title>
-	<link href="styles.css" rel="stylesheet">
-  <script src="index.js"></script>
+	<meta charset='utf-8'>
+	<title>FastCare</title>
+	<link href='styles.css' rel='stylesheet'>
+  <script src='index.js'></script>
+  <link rel='preconnect' href='https://fonts.googleapis.com'>
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap' rel='stylesheet'>
 </head>
-
 <body>
-  <!-- Add the page's HTML here! -->
-  <div id="my-div">
-  <p id="text"><span>Hello World!</span>
-    <ol>
-      <li>Bullet point!</li>
-    </ol>
-  </p>
-  </div>
+  <header>
+    <img id='logo' src='img/logo.png' alt='FastCare' title='FastCare'>
+    <h1>FastCare</h1>
+  </header>
+  <main>
+    <div id='introduction'>
+      <p>See availability and wait time <br>
+        for COVID-19 tests, and Walk <br>
+        In or Urgent Care clinics.</p>
+      <img src='img/connectedaroundtheworld.png' alt='Find medical centers around you.' title='Find medical centers around you.'>
+    </div>
+    <div id='overview'>
+      <div id='card1'>
+        <h2>What We Provide</h2>
+        <img class='catagoryimages' src='img/covid19testingsite.jpeg' alt='Covid 19 Testing Sites' title='Covid 19 Testing Sites'>
+        <h3>COVID-19 Testing Site</h3>
+        <p class='overviewtext'>We help you find a COVID testing site that is close <br>
+          to you and with minimum waiting time.</p>
+      </div>
+      <div id='card2'>
+        <img class='catagoryimages' src='img/urgent_care2.png' alt='Urgent Care and Walk-in Clinics' title='Urgent Care and Walk-in Clinics'>
+        <h3>Walk-In and Urgent Care</h3>
+        <p class='overviewtext'>We help you find a Walk-in & Urgent Care that is <br>
+          close to you and with minimum waiting time.</p>
+      </div>
+    </div>
+    <div id='testingsites'>
+      <h2 class='catagoryname'>COVID-19 Testing Sites</h2>
+      <div id=covidtestingsites>
+        <div class='center'>
+          <div class=one>
+            <h3>UW Medical Center - Northwest</h3>
+            <p class='centerinfo'>Northwest Parking Garage, 1510 N 115th St
+            <br>5 mi</p>
+          </div>
+          <div class=two>
+            <p class='centerinfo'>Hours</p>
+            <p class='centerinfo'>
+              Mon: 8:30 AM - 4:30 PM <br>
+              Tue: 8:30 AM - 4:30 PM<br>
+              Wed: 8:30 AM - 4:30 PM<br>
+              Thu: 8:30 AM - 4:30 PM<br>
+              Fri: 8:30 AM - 4:30 PM<br>
+              Sat: 8:30 AM - 4:30 PM<br>
+              Sun: 8:30 AM - 4:30 PM<br>
+          </div>
+          <div class=three>
+            <p class='centerinfo'>Wait Time:<br>10 minutes</p>
+          </div>
+          <button>Make <br>Reservation</button>
+          <button>See More <br>Information</button>
+        </div>
+        <div class='center'>
+          <div class=one>
+            <h3>Drive-Thru Testing at Walgreens</h3>
+            <p class='centerinfo'>14510 Aurora Ave N
+            <br>20 mi</p>
+          </div>
+          <div class=two>
+            <p class='centerinfo'>Hours</p>
+            <p class='centerinfo'>
+            Mon: 9:00 AM - 5:00 PM <br>
+            Tue: 9:00 AM - 5:00 PM <br>
+            Wed: 9:00 AM - 5:00 PM <br>
+            Thu: 9:00 AM - 5:00 PM <br>
+            Fri: 9:00 AM - 5:00 PM <br>
+            Sat: 9:00 AM - 5:00 PM <br>
+            Sun: 9:00 AM - 5:00 PM <br>
+          </div>
+          <div class=three>
+            <p class='centerinfo'>Wait Time:<br>20 minutes</p>
+          </div>
+          <button>Make <br>Reservation</button>
+          <button>See More <br>Information</button>
+        </div>
+        <div class='center'>
+          <div class=one>
+            <h3>Aurora Testing Center</h3>
+            <p class='centerinfo'>12040 Aurora Ave N
+            <br>10 mi</p>
+          </div>
+          <div class=two>
+            <p class='centerinfo'>Hours</p>
+            <p class='centerinfo'>
+              Mon: 9:30 AM - 5:30 PM <br>
+              Tue: 9:30 AM - 5:30 PM<br>
+              Wed: 9:30 AM - 5:30 PM<br>
+              Thu: 9:30 AM - 5:30 PM<br>
+              Fri: 9:30 AM - 5:30 PM<br>
+              Sat: 9:30 AM - 5:30 PM<br>
+              Sun: 9:30 AM - 5:30 PM<br>
+          </div>
+          <div class=three>
+            <p class='centerinfo'>Wait Time:<br>30 minutes</p>
+          </div>
+          <button>Make <br>Reservation</button>
+          <button>See More <br>Information</button>
+        </div>
+      </div>
+
+      <h2 class='catagoryname'>Walk-In and Urgent Care</h2>
+      <div id=covidtestingsites>
+        <div class='center'>
+          <div class=one>
+            <h3>Swedish Country Doctor Walk-In</h3>
+            <p class='centerinfo'>2101 E Yesler Way
+            <br>7 mi</p>
+          </div>
+          <div class=two>
+            <p class='centerinfo'>Hours</p>
+            <p class='centerinfo'>
+              Mon: 6:00 AM - 9:00 PM <br>
+              Tue: 6:00 AM - 9:00 PM <br>
+              Wed: 6:00 AM - 9:00 PM <br>
+              Thu: 6:00 AM - 9:00 PM <br>
+              Fri: 6:00 AM - 9:00 PM <br>
+              Sat: 11:00 AM - 5:00 PM<br>
+              Sun: 11:00 AM - 5:00 PM<br>
+          </div>
+          <div class=three>
+            <p class='centerinfo'>Wait Time:<br>45 minutes</p>
+          </div>
+          <button>Make <br>Reservation</button>
+          <button>See More <br>Information</button>
+        </div>
+        <div class='center'>
+          <div class=one>
+            <h3>UW Medicine Urgent Care at Ravenna</h3>
+            <p class='centerinfo'>4915 25th Ave NE Suite 300W
+            <br>3 mi</p>
+          </div>
+          <div class=two>
+            <p class='centerinfo'>Hours</p>
+            <p class='centerinfo'>
+            Mon: 10:00 AM - 8:00 PM <br>
+            Tue: 10:00 AM - 8:00 PM <br>
+            Wed: 10:00 AM - 8:00 PM <br>
+            Thu: 10:00 AM - 8:00 PM  <br>
+            Fri:  10:00 AM - 8:00 PM  <br>
+            Sat: 8:00 AM - 6:00 PM <br>
+            Sun: 8:00 AM - 6:00 PM <br>
+          </div>
+          <div class=three>
+            <p class='centerinfo'>Wait Time:<br>8 minutes</p>
+          </div>
+          <button>Make <br>Reservation</button>
+          <button>See More <br>Information</button>
+        </div>
+        <div class='center'>
+          <div class=one>
+            <h3>ZoomCare</h3>
+            <p class='centerinfo'>4012 SW Alaska St
+            <br>10 mi</p>
+          </div>
+          <div class=two>
+            <p class='centerinfo'>Hours</p>
+            <p class='centerinfo'>
+              Mon: 8:00 AM - 6:00 PM <br>
+              Tue: 8:00 AM - 6:00 PM <br>
+              Wed: 8:00 AM - 6:00 PM <br>
+              Thu: 8:00 AM - 6:00 PM <br>
+              Fri: 8:00 AM - 6:00 PM <br>
+              Sat: 9:00 AM - 6:00 PM<br>
+              Sun: 9:00 AM - 6:00 PM<br>
+          </div>
+          <div class=three>
+            <p class='centerinfo'>Wait Time:<br>2 minutes</p>
+          </div>
+          <button>Make <br>Reservation</button>
+          <button>See More <br>Information</button>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 
 </html>
